@@ -1,0 +1,53 @@
+<html>  
+<head>
+
+<title> Calculator Page </title>
+<link rel="stylesheet" href="stylecalci.css">  
+</head>    
+<body>    
+    <center> <h1> Calculator </h1> </center>
+    <div class="container">  
+    <form name="calculator" method="post">
+        <center>  
+        <table id="tableborders" cellpadding="3" cellspacing="3">
+      <tr>
+      <th colspan="4" id="heading"><h1></h1></th>
+      </tr>
+         <tr>
+            <td colspan="2"><input type="text" name="res" id="res" size = "2" value =" "
+></td>
+            <td><input type="button" value="C" onclick="calculator.res.value=''"> </td>
+            <td><input type="button" value="%" onclick="calculator.res.value+=' % '"> </td>
+         </tr>
+         <tr>
+            <td><input type="button" value="1" onclick="calculator.res.value+='1'"></td>
+            <td><input type="button" value="2" onclick="calculator.res.value+='2'"> </td>
+            <td><input type="button" value="3" onclick="calculator.res.value+='3'"> </td>
+            <td><input type="button" value="+" onclick="calculator.res.value+=' + '"> </td>
+         </tr><br>
+         <tr>
+            <td><input type="button" value="4" onclick="calculator.res.value+='4'"> </td>
+            <td><input type="button" value="5" onclick="calculator.res.value+='5'"> </td>
+            <td><input type="button" value="6" onclick="calculator.res.value+='6'"> </td>
+            <td><input type="button" value="-" onclick="calculator.res.value+=' - '"> </td>
+         </tr>
+         <tr>
+            <td><input type="button" value="7" onclick="calculator.res.value+='7'"> </td>
+            <td><input type="button" value="8" onclick="calculator.res.value+='8'"> </td>
+            <td><input type="button" value="9" onclick="calculator.res.value+='9'"> </td>
+            <td><input type="button" value="x" onclick="calculator.res.value+=' * '"> </td>
+         </tr>
+         <tr>
+</td>
+            <td><input type="button" value="0" onclick="calculator.res.value+='0'"> </td>
+            <td><input type="submit" value="=" name="s"> </td>
+            <td><input type="button" value="/" onclick="calculator.res.value+=' / '"> </td>
+            <td><input type="button" value="." onclick="calculator.res.value+='.'"> </td>
+         </tr>
+     </table>
+     </center>        
+    </form>
+    </div>    
+</body>    
+</html>
+
